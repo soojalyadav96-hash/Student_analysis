@@ -1,0 +1,99 @@
+==============================================================================
+STUDENT PERFORMANCE ANALYSIS SYSTEM - ACADEMIC EDA REPORT
+==============================================================================
+Generated On : 2026-11-25 10:41:18
+Pass Marks   : 40 / 100
+
+1. DATA CLEANING & VALIDATION SUMMARY
+------------------------------------------------------------------------------
+Initial Rows                  : 550
+Final Clean Rows              : 550
+Missing Values Detected       : 101
+Missing Values After Cleaning : 0
+Duplicate Rows Removed        : 0
+Duplicate IDs Removed         : 0
+Invalid Values Fixed          : 0
+Grades/Results Verified       : 14
+Validation Status             : PASSED
+
+2. OVERALL PERFORMANCE OVERVIEW
+------------------------------------------------------------------------------
+Total Students         : 550
+Average Final Marks    : 62.26
+Median Final Marks     : 62.10
+Maximum Final Marks    : 99.50
+Minimum Final Marks    : 22.20
+Pass Count / Rate      : 519 (94.36%)
+Fail Count / Rate      : 31 (5.64%)
+Average Attendance     : 76.97%
+Average Study Hours    : 3.16 hrs/day
+
+3. GRADE DISTRIBUTION
+------------------------------------------------------------------------------
+Grade A+  :   17 students (  3.09%)
+Grade A   :   41 students (  7.45%)
+Grade B   :  105 students ( 19.09%)
+Grade C   :  149 students ( 27.09%)
+Grade D   :  207 students ( 37.64%)
+Grade F   :   31 students (  5.64%)
+
+4. PERFORMANCE TIER DISTRIBUTION
+------------------------------------------------------------------------------
+Fail (< 40)               :   31 students (  5.64%)
+Average (40 - 59.9)       :  207 students ( 37.64%)
+Good (60 - 74.9)          :  209 students ( 38.00%)
+Very Good (75 - 89.9)     :   86 students ( 15.64%)
+Outstanding (90 - 100)    :   17 students (  3.09%)
+
+5. GENDER-WISE PERFORMANCE
+------------------------------------------------------------------------------
+Other    | Count:  13 | Avg Marks:  65.75 | Pass Rate:  92.31% | Avg Attendance:  78.67%
+Female   | Count: 254 | Avg Marks:  62.22 | Pass Rate:  94.09% | Avg Attendance:  76.62%
+Male     | Count: 283 | Avg Marks:  62.12 | Pass Rate:  94.70% | Avg Attendance:  77.21%
+
+6. ATTENDANCE & STUDY HOURS CORRELATION ANALYSIS
+------------------------------------------------------------------------------
+Attendance vs Final Marks Correlation  : r = 0.7705
+Pass Rate (Attendance >= 75%)          : 99.40%
+Pass Rate (Attendance <  75%)          : 86.51%
+Study Hours vs Final Marks Correlation : r = 0.7805
+
+7. TOP 10 PERFORMING STUDENTS
+------------------------------------------------------------------------------
+ 1. IT2026402 | Kritika Nair         | Marks:  99.5 | Grade: A+ | Attendance:  97.8%
+ 2. IT2026170 | Ira Menon            | Marks:  98.5 | Grade: A+ | Attendance: 100.0%
+ 3. IT2026305 | Myra Reddy           | Marks:  98.5 | Grade: A+ | Attendance:  86.5%
+ 4. IT2026444 | Ankit Reddy          | Marks:  97.7 | Grade: A+ | Attendance: 100.0%
+ 5. IT2026340 | Ira Tiwari           | Marks:  96.9 | Grade: A+ | Attendance: 100.0%
+ 6. IT2026051 | Manish Agarwal       | Marks:  96.1 | Grade: A+ | Attendance: 100.0%
+ 7. IT2026088 | Yash Saxena          | Marks:  95.0 | Grade: A+ | Attendance:  99.3%
+ 8. IT2026096 | Myra Bose            | Marks:  94.5 | Grade: A+ | Attendance:  91.2%
+ 9. IT2026517 | Karthik Mehta        | Marks:  93.1 | Grade: A+ | Attendance: 100.0%
+10. IT2026147 | Raj Kapoor           | Marks:  93.0 | Grade: A+ | Attendance: 100.0%
+
+8. LOWEST-PERFORMING STUDENTS (AT-RISK COHORT)
+------------------------------------------------------------------------------
+ 1. IT2026304 | Swati Chatterjee     | Marks:  22.2 | Grade: F  | Attendance:  38.2% | Result: Fail
+ 2. IT2026033 | Karthik Gupta        | Marks:  23.5 | Grade: F  | Attendance:  45.0% | Result: Fail
+ 3. IT2026343 | Kritika Nair         | Marks:  26.2 | Grade: F  | Attendance:  77.6% | Result: Fail
+ 4. IT2026211 | Khushi Saxena        | Marks:  27.3 | Grade: F  | Attendance:  47.7% | Result: Fail
+ 5. IT2026094 | Abhishek Nair        | Marks:  27.5 | Grade: F  | Attendance:  36.9% | Result: Fail
+ 6. IT2026418 | Pari Singh           | Marks:  27.6 | Grade: F  | Attendance:  43.1% | Result: Fail
+ 7. IT2026102 | Nandini Sen          | Marks:  29.3 | Grade: F  | Attendance:  47.9% | Result: Fail
+ 8. IT2026082 | Kabir Das            | Marks:  29.5 | Grade: F  | Attendance:  55.5% | Result: Fail
+ 9. IT2026334 | Priya Agarwal        | Marks:  30.4 | Grade: F  | Attendance:  49.1% | Result: Fail
+10. IT2026017 | Simran Kapoor        | Marks:  31.3 | Grade: F  | Attendance:  55.3% | Result: Fail
+
+9. KEY CONCLUSIONS & RECOMMENDATIONS
+------------------------------------------------------------------------------
+1. Out of 550 students, 519 passed (94.4%) and 31 failed (5.6%) based on the 40-mark passing threshold.
+2. Final marks average 62.26 (median 62.10), ranging from a minimum of 22.2 to a maximum of 99.5.
+3. Grade 'D' is the largest cohort with 207 students (37.6% of the batch).
+4. Attendance shows a strong positive correlation (r = 0.770) with Final Marks. Students with >=75% attendance achieved a 99.4% pass rate, compared to 86.5% for students below 75%.
+5. Daily study hours exhibit a strong positive correlation (r = 0.780) with Final Marks, averaging 3.16 hours/day across all students.
+6. Gender-wise average marks are led by Other (65.75) and followed by Male (62.12), a spread of 3.63 marks.
+7. Previous semester marks (r = 0.821) and assignment performance (r = 0.811) are reliable predictors of final examination outcomes.
+
+==============================================================================
+END OF REPORT
+==============================================================================
